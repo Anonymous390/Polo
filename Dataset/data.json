@@ -1,0 +1,470 @@
+[
+    {
+      "place": "Goa",
+      "luxury_rating": 8,
+      "adventure_rating": 7,
+      "best_time_to_visit": "November to March",
+      "safety_rating": 8,
+      "weather_rating": 9,
+      "cultural_background": "Portuguese influence with vibrant beach culture"
+    },
+    {
+      "place": "Leh-Ladakh",
+      "luxury_rating": 5,
+      "adventure_rating": 10,
+      "best_time_to_visit": "May to September",
+      "safety_rating": 7,
+      "weather_rating": 6,
+      "cultural_background": "Rich Tibetan Buddhist culture"
+    },
+    {
+      "place": "Jaipur",
+      "luxury_rating": 9,
+      "adventure_rating": 6,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Royal Rajputana heritage, forts, and palaces"
+    },
+    {
+      "place": "Kerala Backwaters",
+      "luxury_rating": 9,
+      "adventure_rating": 5,
+      "best_time_to_visit": "September to March",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Traditional houseboats, Ayurvedic wellness, serene landscapes"
+    },
+    {
+      "place": "Manali",
+      "luxury_rating": 6,
+      "adventure_rating": 9,
+      "best_time_to_visit": "October to February",
+      "safety_rating": 7,
+      "weather_rating": 8,
+      "cultural_background": "Himalayan town with vibrant local festivals and adventure sports"
+    },
+    {
+      "place": "Udaipur",
+      "luxury_rating": 10,
+      "adventure_rating": 4,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Known for royal palaces, lakes, and Rajputana architecture"
+    },
+    {
+      "place": "Rishikesh",
+      "luxury_rating": 4,
+      "adventure_rating": 9,
+      "best_time_to_visit": "September to November",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Spiritual center, yoga retreats, and adventure sports like rafting"
+    },
+    {
+      "place": "Darjeeling",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "April to June",
+      "safety_rating": 8,
+      "weather_rating": 9,
+      "cultural_background": "Colonial-era hill station, known for tea plantations and Tibetan influences"
+    },
+    {
+      "place": "Andaman & Nicobar Islands",
+      "luxury_rating": 4,
+      "adventure_rating": 7,
+      "best_time_to_visit": "October to May",
+      "safety_rating": 5,
+      "weather_rating": 8,
+      "cultural_background": "Tropical paradise with rich tribal heritage and marine life"
+    },
+    {
+      "place": "Hampi",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "October to February",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Ancient temple ruins, UNESCO World Heritage site, Vijayanagara Empire"
+    },
+    {
+      "place": "Coorg",
+      "luxury_rating": 7,
+      "adventure_rating": 6,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 9,
+      "cultural_background": "Known for coffee plantations, lush greenery, and Kodava culture"
+    },
+    {
+      "place": "Varanasi",
+      "luxury_rating": 4,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 7,
+      "weather_rating": 5,
+      "cultural_background": "Spiritual capital of India, Hindu rituals, Ganges riverfront"
+    },
+    {
+      "place": "Ooty",
+      "luxury_rating": 6,
+      "adventure_rating": 5,
+      "best_time_to_visit": "April to June",
+      "safety_rating": 9,
+      "weather_rating": 9,
+      "cultural_background": "Colonial-era hill station, tea plantations, and botanical gardens"
+    },
+    {
+      "place": "Jaisalmer",
+      "luxury_rating": 8,
+      "adventure_rating": 7,
+      "best_time_to_visit": "November to March",
+      "safety_rating": 8,
+      "weather_rating": 6,
+      "cultural_background": "Golden fort city, Thar desert, camel safaris, and Rajputana history"
+    },
+    {
+      "place": "Shimla",
+      "luxury_rating": 7,
+      "adventure_rating": 6,
+      "best_time_to_visit": "March to June",
+      "safety_rating": 8,
+      "weather_rating": 8,
+      "cultural_background": "Colonial-era hill station, famous for scenic beauty and heritage buildings"
+    },
+    {
+      "place": "Mysore",
+      "luxury_rating": 8,
+      "adventure_rating": 4,
+      "best_time_to_visit": "October to February",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Known for royal palaces, vibrant Dasara festival, and rich history"
+    },
+    {
+      "place": "Shillong",
+      "luxury_rating": 5,
+      "adventure_rating": 7,
+      "best_time_to_visit": "September to May",
+      "safety_rating": 8,
+      "weather_rating": 9,
+      "cultural_background": "Capital of Meghalaya, known for Khasi culture and scenic waterfalls"
+    },
+    {
+      "place": "Alleppey",
+      "luxury_rating": 7,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to February",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Famous for houseboat cruises on Kerala backwaters and traditional Kerala culture"
+    },
+    {
+      "place": "Tawang",
+      "luxury_rating": 4,
+      "adventure_rating": 9,
+      "best_time_to_visit": "March to October",
+      "safety_rating": 7,
+      "weather_rating": 7,
+      "cultural_background": "Buddhist monasteries, scenic mountain ranges, and Tibetan cultural influence"
+    },
+    {
+      "place": "Gangtok",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "March to June",
+      "safety_rating": 8,
+      "weather_rating": 8,
+      "cultural_background": "Capital of Sikkim, known for Buddhist monasteries and stunning mountain views"
+    },
+    {
+      "place": "Ranthambore",
+      "luxury_rating": 8,
+      "adventure_rating": 8,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Famous for wildlife safaris and historical fort"
+    },
+    {
+      "place": "Khajuraho",
+      "luxury_rating": 6,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 6,
+      "cultural_background": "Known for erotic temples, Chandela dynasty history, UNESCO World Heritage site"
+    },
+    {
+      "place": "Nainital",
+      "luxury_rating": 6,
+      "adventure_rating": 6,
+      "best_time_to_visit": "March to June",
+      "safety_rating": 8,
+      "weather_rating": 9,
+      "cultural_background": "Famous for scenic lake and colonial-era architecture"
+    },
+    {
+      "place": "Pondicherry",
+      "luxury_rating": 7,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "French colonial heritage, serene beaches, and vibrant culture"
+    },
+    {
+      "place": "Kutch",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "November to February",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Known for the white salt desert, handicrafts, and Rann Utsav"
+    },
+    {
+      "place": "Sundarbans",
+      "luxury_rating": 5,
+      "adventure_rating": 9,
+      "best_time_to_visit": "November to March",
+      "safety_rating": 7,
+      "weather_rating": 6,
+      "cultural_background": "Home to the Royal Bengal Tiger, vast mangrove forests, and unique ecosystem"
+    },
+    {
+      "place": "Auli",
+      "luxury_rating": 7,
+      "adventure_rating": 9,
+      "best_time_to_visit": "December to February",
+      "safety_rating": 8,
+      "weather_rating": 8,
+      "cultural_background": "Famous for skiing, stunning mountain views, and local Garhwali culture"
+    },
+    {
+      "place": "Mahabalipuram",
+      "luxury_rating": 6,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "UNESCO World Heritage site, known for ancient rock-cut temples and Pallava dynasty history"
+    },
+    {
+      "place": "Rann of Kutch",
+      "luxury_rating": 7,
+      "adventure_rating": 8,
+      "best_time_to_visit": "November to February",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Vast salt desert, known for handicrafts and Rann Utsav"
+    },
+    {
+      "place": "Kaziranga",
+      "luxury_rating": 6,
+      "adventure_rating": 9,
+      "best_time_to_visit": "November to April",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Famous for one-horned rhinoceros, tea estates, and Assamese culture"
+    },
+    {
+      "place": "Lonavala",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "September to February",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Popular hill station near Mumbai, known for scenic valleys and historic caves"
+    },
+    {
+      "place": "Spiti Valley",
+      "luxury_rating": 4,
+      "adventure_rating": 10,
+      "best_time_to_visit": "May to September",
+      "safety_rating": 6,
+      "weather_rating": 5,
+      "cultural_background": "Remote high-altitude desert, Buddhist monasteries, and adventure sports"
+    },
+    {
+      "place": "Lakshadweep",
+      "luxury_rating": 1,
+      "adventure_rating": 9,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 2,
+      "weather_rating": 9,
+      "cultural_background": "Tropical island paradise with a mix of Malayali and indigenous tribal culture"
+    },
+    {
+      "place": "Madurai",
+      "luxury_rating": 7,
+      "adventure_rating": 4,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Ancient city known for Meenakshi Temple and rich Tamil history"
+    },
+    {
+      "place": "Matheran",
+      "luxury_rating": 5,
+      "adventure_rating": 7,
+      "best_time_to_visit": "October to May",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Eco-sensitive hill station, known for its colonial heritage and serene environment"
+    },
+    {
+      "place": "Mount Abu",
+      "luxury_rating": 7,
+      "adventure_rating": 6,
+      "best_time_to_visit": "November to March",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Rajasthan's only hill station, famous for Dilwara Temples and Jain culture"
+    },
+    {
+      "place": "Pachmarhi",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 8,
+      "weather_rating": 8,
+      "cultural_background": "Scenic hill station in Madhya Pradesh, known for caves and ancient temples"
+    },
+    {
+      "place": "Alibaug",
+      "luxury_rating": 7,
+      "adventure_rating": 6,
+      "best_time_to_visit": "November to March",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Coastal town near Mumbai, known for beaches, forts, and laid-back atmosphere"
+    },
+    {
+      "place": "Gulmarg",
+      "luxury_rating": 8,
+      "adventure_rating": 9,
+      "best_time_to_visit": "December to February",
+      "safety_rating": 7,
+      "weather_rating": 8,
+      "cultural_background": "Ski resort town in Kashmir, known for winter sports and scenic beauty"
+    },
+    {
+      "place": "Haridwar",
+      "luxury_rating": 5,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "One of India's holiest cities, known for the Ganga Aarti and pilgrimage sites"
+    },
+    {
+      "place": "Ranthambore National Park",
+      "luxury_rating": 8,
+      "adventure_rating": 9,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Famous for tiger safaris, ancient forts, and wildlife conservation"
+    },
+    {
+      "place": "Cherrapunji",
+      "luxury_rating": 5,
+      "adventure_rating": 8,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 8,
+      "weather_rating": 6,
+      "cultural_background": "Known for heavy rainfall, living root bridges, and Khasi tribal culture"
+    },
+    {
+      "place": "Kumarakom",
+      "luxury_rating": 9,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to February",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Famous for backwater tourism, houseboats, and Kerala's traditional culture"
+    },
+    {
+      "place": "Rameswaram",
+      "luxury_rating": 6,
+      "adventure_rating": 4,
+      "best_time_to_visit": "October to April",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Ancient Hindu pilgrimage site, known for its temples and myths"
+    },
+    {
+      "place": "Mahabaleshwar",
+      "luxury_rating": 7,
+      "adventure_rating": 6,
+      "best_time_to_visit": "October to May",
+      "safety_rating": 9,
+      "weather_rating": 8,
+      "cultural_background": "Hill station in Maharashtra, known for strawberries and scenic viewpoints"
+    },
+    {
+      "place": "Bhopal",
+      "luxury_rating": 7,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Capital of Madhya Pradesh, known for lakes, palaces, and Mughal heritage"
+    },
+    {
+      "place": "Srinagar",
+      "luxury_rating": 8,
+      "adventure_rating": 7,
+      "best_time_to_visit": "April to October",
+      "safety_rating": 7,
+      "weather_rating": 9,
+      "cultural_background": "Capital of Kashmir, known for houseboats, gardens, and Kashmiri culture"
+    },
+    {
+      "place": "Puri",
+      "luxury_rating": 6,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Famous for Jagannath Temple and vibrant Rath Yatra festival"
+    },
+    {
+      "place": "Khajjiar",
+      "luxury_rating": 6,
+      "adventure_rating": 7,
+      "best_time_to_visit": "March to June",
+      "safety_rating": 9,
+      "weather_rating": 9,
+      "cultural_background": "Known as the 'Mini Switzerland' of India, surrounded by deodar forests"
+    },
+    {
+      "place": "Aurangabad",
+      "luxury_rating": 7,
+      "adventure_rating": 5,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "Famous for Ajanta and Ellora caves, Mughal history, and Bibi ka Maqbara"
+    },
+    {
+      "place": "Ajanta & Ellora Caves",
+      "luxury_rating": 5,
+      "adventure_rating": 7,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 8,
+      "weather_rating": 7,
+      "cultural_background": "UNESCO World Heritage sites, known for ancient rock-cut temples and Buddhist influence"
+    },
+    {
+      "place": "Jodhpur",
+      "luxury_rating": 8,
+      "adventure_rating": 6,
+      "best_time_to_visit": "October to March",
+      "safety_rating": 9,
+      "weather_rating": 7,
+      "cultural_background": "Known as the 'Blue City,' famous for Mehrangarh Fort and Rajput culture"
+    }
+]

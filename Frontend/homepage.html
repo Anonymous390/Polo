@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLO - Vacation Finder</title>
+    
+    <!-- Import Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 48px;
+            color: #0066cc;
+            animation: slideIn 1.5s ease-out;
+            transition: color 0.3s ease;
+        }
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            margin-top: 10px;
+            color: #333;
+            animation: fadeIn 2.5s ease-in-out;
+            transition: color 0.3s ease;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin: 40px auto;
+            padding: 15px 30px;
+            width: 220px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            animation: bounce 2s infinite;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #004c99;
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Gallery Styles */
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .gallery img {
+            max-width: 300px;
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            a {
+                width: 180px;
+                padding: 12px 20px;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            .gallery img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='POLO.png') }}" alt="POLO Logo" />
+    <h1>POLO</h1>
+    <h2>Welcome to our website that helps you find a trip for your amazing vacation!</h2>
+
+    <a href="http://127.0.0.1:5000/findtrip">Find your trip here</a>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1200px-Taj_Mahal_%28Edited%29.jpeg" alt="Taj Mahal" />
+        <img src="https://storage.karmagroup.com/assets/karmagroup.com/blog/2016/09/goabeaches.jpg" alt="Goa Beach" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Houseboats_at_Kerala_Backwaters.jpg/640px-Houseboats_at_Kerala_Backwaters.jpg" alt="Kerala Backwaters" />
+        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/12/Beas-Kund.jpg" alt="Manali Mountains" />
+        <img src="https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/669a47b5-f41b-4300-b910-17cb3a5bb594/The+Common+Wanderer-2155-2.jpg" alt="Jaipur Palace" />
+        <img src="https://dynamic.tourtravelworld.com/package-images/photo-big/dir_31/912935/337374.jpg" alt="Leh Ladakh" />
+    </div>
+</body>
+</html>
