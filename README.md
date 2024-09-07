@@ -83,3 +83,6 @@ python -m venv venv
   - HTML/CSS: For frontend design.
   - Unsplash: For high-quality images in the gallery.
   - Google Fonts: To style the fonts.
+
+#### Honourable Mentions
+  - https://www.figma.com/proto/0Ei5KTfJLX0tFxG6kPf79d/Polo?node-id=0-1&t=ggynWzVatZJCdtRg-1
